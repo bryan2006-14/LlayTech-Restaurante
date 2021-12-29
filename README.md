@@ -8,10 +8,13 @@ Incluye:
 + **Django REST Framework**
 + Entorno virtual con **venv**
 + Documentación de la API con **drf-yasg**
++ Autenticación con **JWT**
 
 ### Librerías y paquetes utilizados:
 - [**Django REST framework**](https://www.django-rest-framework.org/)
 - [**drf-yasg**](https://drf-yasg.readthedocs.io/en/stable/)
+- [**Simple JWT**](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
+- [**Django CORS Headers**](https://pypi.org/project/django-cors-headers/)
 
 ### Versión: 1.0.0
 

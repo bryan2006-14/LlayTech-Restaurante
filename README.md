@@ -4,6 +4,11 @@
 
 _Backend_ para la aplicación **iCard** creado con _Django REST Framework_.
 
+Funciones principales:
++ Gestión de usuarios (_CRUD_)
++ Autenticación (_Token_)
++ Gestión de categorías (_CRUD_)
+
 Incluye:
 + **Django REST Framework**
 + Entorno virtual con **venv**
@@ -15,6 +20,7 @@ Incluye:
 - [**drf-yasg**](https://drf-yasg.readthedocs.io/en/stable/)
 - [**Simple JWT**](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
 - [**Django CORS Headers**](https://pypi.org/project/django-cors-headers/)
+- [**Pillow**](https://pypi.org/project/Pillow/)
 
 ### Versión: 1.0.0
 

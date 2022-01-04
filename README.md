@@ -21,6 +21,7 @@ Incluye:
 - [**Simple JWT**](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
 - [**Django CORS Headers**](https://pypi.org/project/django-cors-headers/)
 - [**Pillow**](https://pypi.org/project/Pillow/)
+- [**Django Filter**](https://pypi.org/project/django-filter/)
 
 ### Versión: 1.0.0
 

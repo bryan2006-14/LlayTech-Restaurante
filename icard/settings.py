@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_framework',
     'categories',
+    'orders',
     'products',
     'tables',
     'users',

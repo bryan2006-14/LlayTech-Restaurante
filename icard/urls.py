@@ -25,6 +25,7 @@ from users.api.router import router_user
 from categories.api.router import router_category
 from products.api.router import router_product
 from tables.api.router import router_table
+from orders.api.router import router_order
 
 
 schema_view = get_schema_view(
@@ -45,6 +46,7 @@ urlpatterns = [
     path('redocs/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('api/', include('users.api.router')),
     path('api/', include(router_category.urls)),
+    path('api/', include(router_order.urls)),
     path('api/', include(router_product.urls)),
     path('api/', include(router_table.urls)),
     path('api/', include(router_user.urls)),

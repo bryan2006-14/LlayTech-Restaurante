@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'categories',
     'orders',
+    'payments',
     'products',
     'tables',
     'users',

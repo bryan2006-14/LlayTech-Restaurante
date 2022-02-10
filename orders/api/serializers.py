@@ -12,4 +12,5 @@ class OrderSerializer(ModelSerializer):
     class Meta:
         model = Order
         fields = ['id', 'table', 'table_data', 'product',
-                  'product_data', 'status', 'close', 'created_at']
+                  'product_data', 'payment', 'status',
+                  'close', 'created_at']

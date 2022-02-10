@@ -11,5 +11,5 @@ class OrderApiViewSet(ModelViewSet):
     queryset = Order.objects.all()
     
     filter_backends = [DjangoFilterBackend, OrderingFilter]
-    filterset_fields = ['table', 'status', 'close']
+    filterset_fields = ['table', 'status', 'payment', 'close']
     ordering_fields = '__all__'

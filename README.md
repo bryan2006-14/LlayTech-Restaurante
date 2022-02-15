@@ -8,12 +8,17 @@ Funciones principales:
 + Gestión de usuarios (_CRUD_)
 + Autenticación (_Token_)
 + Gestión de categorías (_CRUD_)
++ Gestión de productos (_CRUD_)
++ Gestión de mesas (_CRUD_)
++ Gestión de pedidos (_CRUD_)
++ Gestión de pagos (_CRUD_)
 
 Incluye:
 + **Django REST Framework**
 + Entorno virtual con **venv**
 + Documentación de la API con **drf-yasg**
 + Autenticación con **JWT**
++ Filtros con **django-filter**
 
 ### Librerías y paquetes utilizados:
 - [**Django REST framework**](https://www.django-rest-framework.org/)

@@ -98,9 +98,6 @@ DATABASES = {
     )
 }
 
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
@@ -130,7 +127,7 @@ REST_FRAMEWORK = {
 
 LANGUAGE_CODE = 'es'
 
-TIME_ZONE = 'America/Argentina/Buenos_Aires'
+TIME_ZONE = 'America/Peru/Trujillo'
 
 USE_I18N = True
 

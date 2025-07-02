@@ -76,7 +76,7 @@ TEMPLATES = [
 # Base de datos (Render)
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://ecommerce_db_7jdj_user:uSaUdpoSuIS3wvsTvtEOunF8jN87cdBU@dpg-d1d1qh95pdvs73a8o1hg-a.oregon-postgres.render.com/ecommerce_db_7jdj',
+        default='postgresql://db_render_2ysu_user:crteMWoba9DWQRw8BSqEmNY6Lcw3wdE8@dpg-d1is82ripnbc7383ie70-a.oregon-postgres.render.com/db_render_2ysu',
         conn_max_age=600
     )
 }

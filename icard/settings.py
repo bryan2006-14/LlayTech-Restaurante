@@ -77,19 +77,12 @@ TEMPLATES = [
 import dj_database_url
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db_render_2ysu',
-        'USER': 'db_render_2ysu_user',
-        'PASSWORD': 'crteMWoba9DWQRw8BSqEmNY6Lcw3wdE8',
-        'HOST': 'dpg-d1is82ripnbc7383ie70-a.oregon-postgres.render.com',
-        'PORT': '5432',
-        'OPTIONS': {
-            'sslmode': 'require'
-        }
-    }
+    'default': dj_database_url.config(
+        default='postgres://db_render_2ysu_user:crteMWoba9DWQRw8BSqEmNY6Lcw3wdE8@dpg-d1is82ripnbc7383ie70-a.oregon-postgres.render.com/db_render_2ysu',
+        conn_max_age=600,
+        ssl_require=True
+    )
 }
-
 
 
 # Archivos estáticos

@@ -74,12 +74,16 @@ TEMPLATES = [
 ]
 
 # Base de datos (Render)
+import dj_database_url
+
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://db_render_2ysu_user:crteMWoba9DWQRw8BSqEmNY6Lcw3wdE8@dpg-d1is82ripnbc7383ie70-a.oregon-postgres.render.com/db_render_2ysu',
-        conn_max_age=600
+        default='postgres://db_render_2ysu_user:crteMWoba9DWQRw8BSqEmNY6Lcw3wdE8@dpg-d1is82ripnbc7383ie70-a.oregon-postgres.render.com/db_render_2ysu',
+        conn_max_age=600,
+        ssl_require=True
     )
 }
+
 
 # Archivos estáticos
 STATIC_URL = '/static/'
